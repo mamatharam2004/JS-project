@@ -1,0 +1,62 @@
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Product Sans", sans-serif;
+    color: white;
+}
+
+.A {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 30px 40px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 30px #ff00cc, 0 0 60px #3333ff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.A:hover {
+    transform: scale(1.03);
+}
+
+.btn {
+    font-size: 90px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #00ffff;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.15);
+    text-shadow: 0 0 15px #ffeb3b, 0 0 25px #ff4081, 0 0 35px #7c4dff;
+}
+
+.data {
+    font-size: 90px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff6ec4, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s ease;
+}
